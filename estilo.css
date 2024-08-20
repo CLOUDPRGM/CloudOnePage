@@ -1,7 +1,10 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    overflow-x: hidden; /* Adicionado para remover a barra de rolagem horizontal */
+    
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;  /* Adicionado para remover a barra de rolagem horizontal */
 }
 
 header {
@@ -115,13 +118,8 @@ nav ul li a:hover {
 
 /*Código gaspar*/
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden; /* Adicionado para remover a barra de rolagem horizontal */
-}
+/* Adicionado para remover a barra de rolagem horizontal */
+
 
 header {
     background-color: #00a5d6;
