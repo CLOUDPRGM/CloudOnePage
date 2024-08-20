@@ -1,112 +1,222 @@
-    body {
-        margin: 0;
-        font-family: Arial, sans-serif;
-    }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Adicionado para remover a barra de rolagem horizontal */
+}
 
-    header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 35px 35px;
-        background-color: #0097B2;
-    }
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 35px;
+    background-color: #0097B2;
+    width: 100%;
+}
 
-    .logo img {
-        height: 50px;
-    }
+.logo img {
+    height: 50px;
+}
 
-    nav ul {
-        list-style: none;
-        display: flex;
-        margin: 0;
-        padding: 0;
-    }
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
 
-    nav ul li {
-        margin-left: 20px;
-    }
+nav ul li {
+    margin-left: 5px;
+}
 
-    nav ul li a {
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-    }
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-    nav ul li a:hover {
-        text-decoration: underline;
-    }
+nav ul li a:hover {
+    text-decoration: underline;
+}
 
-    .cards {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        padding: 20px;
-        flex-wrap: wrap;
-    }
-    
-    .card {
-        width: 300px;
-        border-radius: 15px;
-        border: 2px solid #fff;
-        padding: 20px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        text-align: center;
-        background-color: #fff;
-    }
-    
-    .card h2 {
-        margin-top: 0;
-        color: #0097B2;
-    }
-    
-    .card p {
-        font-size: 16px;
-        color: #333;
-    }
-    
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
 
-    .texto-destaque{
-        color:#0097B2;
-        font-weight: bold;
-    }
+.card {
+    width: 300px;
+    border-radius: 15px;
+    border: 2px solid #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+}
 
-    .icons-descriptions {
-        display: flex;
-        justify-content: space-around;
-        align-items: flex-start;
-        padding: 20px;
-        flex-wrap: wrap;
-    }
-    
-    .icon-item {
-        flex: 1;
-        max-width: 30%;
-        text-align: center;
-        margin: 10px;
-    }
-    
-    .icon-item i {
-        color: #0097B2; 
-    }
-    
-    .icon-item h1 {
-        font-size: 1.5rem;
-        margin: 10px 0;
-        color: #0097B2; 
-    }
-    
-    .icon-item p {
-        font-size: 1rem;
-        color: #333;
-    }
-    
+.card h2 {
+    margin-top: 0;
+    color: #0097B2;
+}
 
-    .linha-centralizada {
-        width: 75%; 
-        margin: 20px auto; 
-        border: none; 
-        border-top: 1px solid rgba(0, 0, 0, 0.2); 
-    }
-    
-    
-    
+.card p {
+    font-size: 16px;
+    color: #333;
+}
+
+.texto-destaque {
+    color: #0097B2;
+    font-weight: bold;
+}
+
+.fonte-slogan{
+    color:#fff;
+    font-weight: bold;
+}
+
+.icons-descriptions {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.icon-item {
+    flex: 1;
+    max-width: 30%;
+    text-align: center;
+    margin: 10px;
+}
+
+.icon-item i {
+    color: #0097B2;
+}
+
+.icon-item h1 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #0097B2;
+}
+
+.icon-item p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.linha-centralizada {
+    width: 75%;
+    margin: 20px auto;
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/*Código gaspar*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden; /* Adicionado para remover a barra de rolagem horizontal */
+}
+
+header {
+    background-color: #00a5d6;
+    padding: 25px;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #00a5d6;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #007f9e;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+}
+
+.carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.services, .why-choose-us, .about, .mission-vision-values, .team, .clients, .location {
+    padding: 20px;
+    text-align: center;
+}
+
+.services, .why-choose-us {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    margin: 20px 2%;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.mission-vision-values div {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+}
+
+.team, .clients {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+.team img, .clients img {
+    width: 100px;
+    height: 100px;
+    background-color: #d8d8d8;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.location iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+/*Fim do codigo do gaspar*/
+
+.logo img {
+    height: 2em;
+}
+
+
+
+
+
+
+
+
