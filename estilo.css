@@ -186,9 +186,9 @@ nav a:hover {
 }
 
 .team img, .clients img {
-    width: 100px;
-    height: 100px;
-    background-color: #d8d8d8;
+    width: 120px;
+    height: 125px;
+    background-color: #ececec;
     margin: 10px;
     border-radius: 50%;
 }
