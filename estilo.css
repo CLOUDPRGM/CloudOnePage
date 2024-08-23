@@ -1,10 +1,7 @@
 body {
-    
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        overflow-x: hidden;  /* Adicionado para remover a barra de rolagem horizontal */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Adicionado para remover a barra de rolagem horizontal */
 }
 
 header {
@@ -118,8 +115,13 @@ nav ul li a:hover {
 
 /*Código gaspar*/
 
-/* Adicionado para remover a barra de rolagem horizontal */
-
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden; /* Adicionado para remover a barra de rolagem horizontal */
+}
 
 header {
     background-color: #00a5d6;
@@ -186,9 +188,9 @@ nav a:hover {
 }
 
 .team img, .clients img {
-    width: 120px;
-    height: 125px;
-    background-color: #ececec;
+    width: 100px;
+    height: 100px;
+    background-color: #d8d8d8;
     margin: 10px;
     border-radius: 50%;
 }
@@ -209,12 +211,29 @@ nav a:hover {
 
 .logo img {
     height: 2em;
+} 
+
+.team img{
+    height: 10em;
+    width: 9em;
 }
 
+.clients img{
+    height: 10em;
+    width: 9em;
+}
 
+.team {
+    text-align: center;
+}
 
+.linha {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+}
 
-
-
-
-
+.membro {
+    margin: 0 15px; 
+    text-align: center;
+}
